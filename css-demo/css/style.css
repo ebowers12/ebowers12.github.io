@@ -1,0 +1,39 @@
+.container {
+    width: 700px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 5px;
+    border: 1px solid black;
+    padding: 50px;
+    background-color: antiquewhite;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: purple;
+    overflow: hidden;
+    text-align: center;
+}
+
+ul.nav li {
+    display: inline-block;
+}
+
+ul.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: white;
+}
+
+ul.nav li a:hover {
+    background-color: black;
+    color: white;
+}
