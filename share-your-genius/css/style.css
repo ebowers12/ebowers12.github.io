@@ -4,8 +4,9 @@
     padding: 0px;
     color: black;
     overflow: hidden;
-    background-color: black;
+    background-color: rgb(156, 97, 204);
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul.nav li {
@@ -21,7 +22,7 @@ ul.nav li a {
 }
 
 .active {
-    background-color: black;
+    background-color: rgb(147, 81, 201);
     color: black;
 }
 
@@ -32,8 +33,26 @@ ul.nav li a:hover {
 
 h1 {
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .color {
     background-color: rgb(234, 192, 234);
+}
+
+.size {
+    width: 600px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: pre-wrap;
 }
