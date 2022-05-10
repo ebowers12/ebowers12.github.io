@@ -44,13 +44,14 @@
     padding: 20px;
 }
 
+
 /**controversy page grid**/
 
 .top {
     grid-column: 1/span 3;
     grid-row: 1;
     background-color: rgba(216, 211, 211, 0.774);
-    width: 100%;    
+    width: 100%;
 }
 
 .intro {
@@ -80,6 +81,20 @@
     background-color: rgba(220, 226, 226, 0.87);
     border: solid 1px black;
 }
+
 .color {
     background-color: rgb(0, 48, 73);
+}
+
+
+/** Home page grid **/
+
+.main-image {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+}
+
+.main-paragraph {
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 3;
 }
