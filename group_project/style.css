@@ -73,3 +73,13 @@
     background-color: rgba(220, 226, 226, 0.87);
     border: solid 1px black;
 }
+
+.quotes {
+    grid-column: 1 / span 3;
+    grid-row: 4;
+    background-color: rgba(220, 226, 226, 0.87);
+    border: solid 1px black;
+}
+.color {
+    background-color: rgb(0, 48, 73);
+}
