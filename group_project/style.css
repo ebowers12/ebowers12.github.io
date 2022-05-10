@@ -49,35 +49,30 @@
 .top {
     grid-column: 1/span 3;
     grid-row: 1;
-    background-color: rgba(216, 211, 211, 0.774);
     width: 100%;    
 }
 
 .intro {
     grid-column: 1/span 3;
     grid-row: 2;
-    background-color: rgba(220, 226, 226, 0.87);
     border: solid 1px black;
 }
 
 .against {
     grid-column: 1 / span 1;
     grid-row: 3;
-    background-color: rgba(220, 226, 226, 0.87);
     border: solid 1px black;
 }
 
 .for {
     grid-column: 3 / span 1;
     grid-row: 3;
-    background-color: rgba(220, 226, 226, 0.87);
     border: solid 1px black;
 }
 
 .quotes {
     grid-column: 1 / span 3;
     grid-row: 4;
-    background-color: rgba(220, 226, 226, 0.87);
     border: solid 1px black;
 }
 .color {
