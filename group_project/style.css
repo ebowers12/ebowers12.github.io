@@ -126,6 +126,35 @@
     padding: 10px;
 }
 
+/** Resources Grid **/
+.intror {
+    grid-row: 2;
+    grid-column: 1 / span 3;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.map {
+    grid-row: 3;
+    grid-column: 2 / span 1;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.shelters {
+    grid-row: 3;
+    grid-column: 1 / span 1;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.state {
+    grid-row: 3;
+    grid-column: 3 / span 1;
+    border: 3px solid black;
+    padding: 10px;
+}
+
 
 /** Intro to Program grid **/
 
