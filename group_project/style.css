@@ -178,11 +178,11 @@
 }
 
 .table-1 {
-    grid-row: 3;
+    grid-row: 6;
     grid-column: 2;
 }
 
-.image-1 {
-    grid-row: 4;
-    grid-column: 1 / span 3;
+.img-1 {
+    grid-row: 5;
+    grid-column: 3;
 }
