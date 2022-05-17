@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Messaround</title>
+</head>
+
+<body>
+    <h1>Let's learn java script</h1>
+    <h2> How do we do onlick events</h2>
+    <a href="http://www.eastsideprep.org/" target="_blank" onclick="alert('warning, you are navigating away')"> got to my school's website</a>
+
+    <h2> How do I change HTML content with javascript</h2>
+    <h2> What's my secret identity?</h2>
+    <p id="secret"></p>
+    <button onclick="document.getElementById('secret') .innerHTML='Nana Nana Nana, Batman'; document.getElementById('secret') .style.display='block'">Reveal</button>
+    <button onclick="document.getElementById('secret') .style.display='none' ">Hide</button>
+
+    <!--do your own 2 truths and a lie-->
+    <ol>
+        <li> I have an older brother who likes to make robots</li>
+        <li> I was born in California </li>
+        <li> My favorite dessert is ice cream</li>
+    </ol>
+
+    <p id="secret"></p>
+    <button onclick="document.getElementById('secret') .innerHTML='My favorite dessert is ice cream'; document.getElementById('secret') .style.display='block'">Reveal</button>
+    <button onclick="document.getElementById('secret') .style.display='none' ">Hide</button>
+
+    <h2> How do we change an image</h2>
+
+    <img src="images/pic_bulboff.gif" alt="image of light bulb off" id="bulb">
+    <button onclick="document.getElementById('bulb') .src='images/pic_bulbon.gif'"> Turn On</button>
+    <!--impleemnt off light your self-->
+
+    <button onclick="document.getElementById('bulb') .src='images/pic_bulboff.gif'"> Turn Off</button>
+
+    <!--How do we change CSS styles with functions-->
+
+    <p id="alice"> Hi I am Alice</p>
+    <button onclick="shrinkAlice()" ; document.getElementById( 'secret') .style.display='block' ">Cake Eat Me</button>
+    <button onclick="growAlice() "> Potion, Drink Me</button>
+    <button onclick="oneAlice () "> Background Color</button>
+    <button onclick="twoAlice () "> Change Text Position</button>
+
+    <script>
+        function shrinkAlice() {
+            let aliceParagraph = document.getElementById('alice');
+            aliceParagraph.style.color = 'blue';
+            aliceParagraph.style.fontSize = '10 px';
+        }
+
+        function growAlice() {
+            let aliceParagraph = document.getElementById('alice');
+            aliceParagraph.style.color = 'red';
+            aliceParagraph.style.fontSize = '30 px';
+        }
+
+        function oneAlice() {
+            let aliceParagraph = document.getElementById('alice');
+            aliceParagraph.style.backgroundColor = 'blue';
+
+        }
+
+        function twoAlice() {
+            let aliceParagraph = document.getElementById('alice'); 
+            aliceParagraph.style.fontFamily = 'Verdana';
+        }
+    </script>
+</body>
+
+</html>

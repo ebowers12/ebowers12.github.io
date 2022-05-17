@@ -6,9 +6,11 @@
     padding-right: 20%;
     overflow: hidden;
     text-align: center;
+    display: block;
+    background-color: orange;
+    text-align: center;
+    font-size: 90%;
 }
-
-.active {}
 
 ul.nav li a:hover {
     background-color: white;
@@ -86,21 +88,21 @@ ul.nav li a:hover {
 
 .main-image {
     grid-column: 1 / span 2;
-    grid-row: 2 / span 4;
+    grid-row: 2;
     border: 3px solid black;
     padding: 10px;
 }
 
 .main-paragraph {
     grid-column: 3 / span 3;
-    grid-row: 2 / span 3;
+    grid-row: 2;
     border: 3px solid black;
     padding: 10px;
 }
 
 .second-paragraph {
     grid-column: 1 / span 3;
-    grid-row: 8 / span 4;
+    grid-row: 4;
     border: 3px solid black;
     padding: 10px;
 }
@@ -109,6 +111,21 @@ ul.nav li a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.video {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.sources {
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.table {
+    grid-column: 2;
+    grid-row: 5;
 }
 
 
@@ -203,4 +220,18 @@ ul.nav li a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+
+/** CSS**/
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
