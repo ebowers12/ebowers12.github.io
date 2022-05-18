@@ -41,10 +41,17 @@
     <!--How do we change CSS styles with functions-->
 
     <p id="alice"> Hi I am Alice</p>
-    <button onclick="shrinkAlice()" ; document.getElementById( 'secret') .style.display='block' ">Cake Eat Me</button>
+    <button onclick="shrinkAlice()" ; document.getElementById( 'alice') .style.display='block'>Cake Eat Me</button>
     <button onclick="growAlice() "> Potion, Drink Me</button>
     <button onclick="oneAlice () "> Background Color</button>
     <button onclick="twoAlice () "> Change Text Position</button>
+
+    <p id="color"> Change the position of this text</p>
+
+    <button onclick="document.getElementById('color') .style.direction = 'ltr';"> Left</button>
+    <button onclick="document.getElementById('color') .style.direction = 'rtl'">Right</button>
+
+
 
     <script>
         function shrinkAlice() {
@@ -66,7 +73,7 @@
         }
 
         function twoAlice() {
-            let aliceParagraph = document.getElementById('alice'); 
+            let aliceParagraph = document.getElementById('alice');
             aliceParagraph.style.fontFamily = 'Verdana';
         }
     </script>
