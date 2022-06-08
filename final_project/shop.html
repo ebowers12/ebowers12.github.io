@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downing Pottery</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        h3 {
+            text-align: left;
+        }
+        
+        p {
+            text-align: left;
+        }
+        
+        .grid-item {
+            background-color: lightgray;
+        }
+        
+        h1 {
+            font-family: monotype-grotesque, sans-serif;
+            font-weight: normal;
+            font-style: normal;
+            color: rgb(5, 5, 5);
+            font-size: 60px, 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <!--nav bar-->
+        <div class="top">
+            <h1 style="text-align: left; letter-spacing: 1.5px; margin-left: 10px; font-weight: lighter;">Downing Pottery</h1>
+            <h2 style="margin-left: 50px;">homemade ceramics that celebrate home</h2>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+
+        <div class="grid-item product-1">
+            <img src="images/product-1.jpeg" alt="Skyline mug" style="width: 100%;">
+        </div>
+
+        <div class="grid-item product-2">
+            <img src="images/product-2.jpeg" alt="Skyline Spoon rest" style="width: 100%;">
+        </div>
+
+        <div class="grid-item product-3">
+            <img src="images/product-3.jpeg" alt="Skyline utensil holder" style="width: 100%;">
+        </div>
+
+        <div class="grid-item product-1-blurb">
+            <h3> Skyline mug</h3>
+            <p> $39.99</p>
+            <p id="cart" style="text-align: right;"></p>
+            <button onclick="document.getElementById('cart') .innerHTML='Added to cart'; document.getElementById('cart') .style.display='block' .style.backgroundColor='orange' ">Add to cart</button>
+            <button onclick="document.getElementById('cart') .style.display='none' ">Remove from cart</button>
+        </div>
+
+        <div class="grid-item product-2-blurb">
+            <h3> Skyline spoon rest</h3>
+            <p> $29.99</p>
+            <p id="cart" style="text-align: right;"></p>
+            <button onclick="document.getElementById('cart') .innerHTML='Added to cart'; document.getElementById('cart') .style.display='block' .style.backgroundColor='orange' ">Add to cart</button>
+            <button onclick="document.getElementById('cart') .style.display='none' ">Remove from cart</button>
+        </div>
+
+        <div class="grid-item product-3-blurb">
+            <h3> Skyline utensil holder</h3>
+            <p> $59.99</p>
+            <p id="cart" style="text-align: right;"></p>
+            <button onclick="document.getElementById('cart') .innerHTML='Added to cart'; document.getElementById('cart') .style.display='block' .style.backgroundColor='orange' ">Add to cart</button>
+            <button onclick="document.getElementById('cart') .style.display='none' ">Remove from cart</button>
+        </div>
+
+        <div class="grid-item product-4">
+            <img src="images/product-4.jpg" alt="Orca mug " style="width: 100%; ">
+
+        </div>
+
+        <div class="grid-item product-5 ">
+            <img src="images/product-5.jpeg " alt="Orca spoonrest " style="width: 100%; ">
+        </div>
+
+        <div class="grid-item product-6 ">
+            <img src="images/product-6.jpeg" alt="Color block mugs " style="width: 100%; ">
+        </div>
+
+        <div class="grid-item product-4-blurb">
+            <h3> Orca mug</h3>
+            <p> $34.99</p>
+            <p id="cart" style="text-align: right;"></p>
+            <button onclick="document.getElementById('cart') .innerHTML='Added to cart'; document.getElementById('cart') .style.display='block' .style.backgroundColor='orange' ">Add to cart</button>
+            <button onclick="document.getElementById('cart') .style.display='none' ">Remove from cart</button>
+        </div>
+
+        <div class="grid-item product-5-blurb">
+            <h3> Orca spoon rest</h3>
+            <p> $24.99</p>
+            <p id="cart" style="text-align: right;"></p>
+            <button onclick="document.getElementById('cart') .innerHTML='Added to cart'; document.getElementById('cart') .style.display='block' .style.backgroundColor='orange' ">Add to cart</button>
+            <button onclick="document.getElementById('cart') .style.display='none' ">Remove from cart</button>
+        </div>
+
+        <div class="grid-item product-6-blurb">
+            <h3> Color block planters</h3>
+            <p> $49.99</p>
+            <p id="cart" style="text-align: right;"></p>
+            <button onclick="document.getElementById('cart') .innerHTML='Added to cart'; document.getElementById('cart') .style.display='block' .style.backgroundColor='orange' ">Add to cart</button>
+            <button onclick="document.getElementById('cart') .style.display='none' ">Remove from cart</button>
+        </div>
+    </div>
+
+</body>
+
+
+
+</html>
