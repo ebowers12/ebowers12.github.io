@@ -28,6 +28,15 @@
             color: rgb(5, 5, 5);
             font-size: 60px, 2em;
         }
+        
+        form {
+            font-family: monotype-grotesque, sans-serif;
+            font-weight: normal;
+            font-style: normal;
+            color: rgb(5, 5, 5);
+            text-align: left;
+            font-size: 10px;
+        }
     </style>
 </head>
 
@@ -60,6 +69,12 @@
         <div class="grid-item product-1-blurb">
             <h3> Skyline mug</h3>
             <p> $39.99</p>
+            <form>
+                <label for="quan">Quantity:</label><br>
+                <input type="number" id="quan" name="quan"><br>
+
+            </form>
+
             <p id="cart" style="text-align: right;"></p>
             <button onclick="document.getElementById('cart') .innerHTML='Added to cart'; document.getElementById('cart') .style.display='block' .style.backgroundColor='orange' ">Add to cart</button>
             <button onclick="document.getElementById('cart') .style.display='none' ">Remove from cart</button>
@@ -68,6 +83,11 @@
         <div class="grid-item product-2-blurb">
             <h3> Skyline spoon rest</h3>
             <p> $29.99</p>
+            <form>
+                <label for="quan">Quantity:</label><br>
+                <input type="number" id="quan" name="quan"><br>
+
+            </form>
             <p id="cart" style="text-align: right;"></p>
             <button onclick="document.getElementById('cart') .innerHTML='Added to cart'; document.getElementById('cart') .style.display='block' .style.backgroundColor='orange' ">Add to cart</button>
             <button onclick="document.getElementById('cart') .style.display='none' ">Remove from cart</button>
@@ -76,6 +96,11 @@
         <div class="grid-item product-3-blurb">
             <h3> Skyline utensil holder</h3>
             <p> $59.99</p>
+            <form>
+                <label for="quan">Quantity:</label><br>
+                <input type="number" id="quan" name="quan"><br>
+
+            </form>
             <p id="cart" style="text-align: right;"></p>
             <button onclick="document.getElementById('cart') .innerHTML='Added to cart'; document.getElementById('cart') .style.display='block' .style.backgroundColor='orange' ">Add to cart</button>
             <button onclick="document.getElementById('cart') .style.display='none' ">Remove from cart</button>
@@ -97,6 +122,11 @@
         <div class="grid-item product-4-blurb">
             <h3> Orca mug</h3>
             <p> $34.99</p>
+            <form>
+                <label for="quan">Quantity:</label><br>
+                <input type="number" id="quan" name="quan"><br>
+
+            </form>
             <p id="cart" style="text-align: right;"></p>
             <button onclick="document.getElementById('cart') .innerHTML='Added to cart'; document.getElementById('cart') .style.display='block' .style.backgroundColor='orange' ">Add to cart</button>
             <button onclick="document.getElementById('cart') .style.display='none' ">Remove from cart</button>
@@ -105,6 +135,11 @@
         <div class="grid-item product-5-blurb">
             <h3> Orca spoon rest</h3>
             <p> $24.99</p>
+            <form>
+                <label for="quan">Quantity:</label><br>
+                <input type="number" id="quan" name="quan"><br>
+
+            </form>
             <p id="cart" style="text-align: right;"></p>
             <button onclick="document.getElementById('cart') .innerHTML='Added to cart'; document.getElementById('cart') .style.display='block' .style.backgroundColor='orange' ">Add to cart</button>
             <button onclick="document.getElementById('cart') .style.display='none' ">Remove from cart</button>
@@ -113,14 +148,17 @@
         <div class="grid-item product-6-blurb">
             <h3> Color block planters</h3>
             <p> $49.99</p>
+            <form>
+                <label for="quan">Quantity:</label><br>
+                <input type="number" id="quan" name="quan"><br>
+
+            </form>
             <p id="cart" style="text-align: right;"></p>
             <button onclick="document.getElementById('cart') .innerHTML='Added to cart'; document.getElementById('cart') .style.display='block' .style.backgroundColor='orange' ">Add to cart</button>
             <button onclick="document.getElementById('cart') .style.display='none' ">Remove from cart</button>
         </div>
 
-        <div class="footer" style="text-align: left;">
-            <footer>Downing Pottery, WA</footer>
-        </div>
+
     </div>
 
 </body>
